@@ -7,11 +7,11 @@
 
 <body>
 
-    <h1>Welcome to the broken page</h1>
+    <h1 id="welcome">Welcome to the broken page</h1>
 
     <h3>About</h3>
 
-    <p>Hello! Welcome to the broken page. This page is the original version of the HTML project.
+    <p id="welcome">Hello! Welcome to the broken page. This page is the original version of the HTML project.
 
     <h2>Broken page</h2>
 
@@ -21,19 +21,34 @@
 
     <p>You can learn more about the broken page <a href="missing/broken.html">here</a>.</p>
 
-    <h2>HTML project</h2>
+    <p>
+        <h2>HTML project</h2>
+    </p>
+
 
     <p>This project demonstrates the importance of writing clean and valid HTML code.</p>
 
     <img src="images/project1.jpg" alt="My first project">
 
-    <p>Visit the <a href="pages/home.html">home page</a> to see more.</p>
+    <p>Visit the <a href="index.html">home page</a> to see more.</p>
 
     <img src="images/goals.jpg">
 
     <h2>Contact</h2>
 
     <p>If you want to contact me, you can send me an <a href="mailto:example@email.com">email</a>.</p>
+
+    <form action="submit.php" method="POST">
+
+    <label for="username">Username</label>
+    <input type="text" id="name">
+
+    <label for="user-email">Email</label>
+    <input type="email" id="user-email">
+
+    <button type="submit">Submit</button>
+
+</form>
 
     <p>Thank you for visiting my website.
 
